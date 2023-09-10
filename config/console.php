@@ -26,6 +26,9 @@ $config = [
             ],
         ],
         'db' => $db,
+        'Url' => [
+            'class' => 'app\components\url\Url'
+        ],
     ],
     'params' => $params,
     /*
